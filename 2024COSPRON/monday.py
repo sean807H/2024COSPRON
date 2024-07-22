@@ -30,6 +30,14 @@ def min_list(num2):
 
 print(min_list(scores))   #3
 
+def average_list(num5):
+    total = 0
+    for i in num5:
+        total += i
+    return total/len(num5)
+
+print(average_list(scores))   #412.0
+
 def count_odd(num3):
     count = 0
     for i in num3:
